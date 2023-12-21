@@ -1,7 +1,5 @@
 "use strict"
 
-
-
 const nameInput = document.getElementById('name-input'),
       lNameInput  = document.getElementById('lastname-input'),
       phoneNumInput = document.getElementById('tel-input'),
@@ -51503,11 +51501,6 @@ function submittingHandler(e) {
     drawingInfoHandler(userList)
 }
 
-// submitForm.addEventListener('keydown', (e) => {
-//     if (e.key === 'Enter') {
-//         submitForm.addEventListener('submit',submittingHandler);
-//     }
-// })
 
 submitForm.addEventListener('submit',submittingHandler);
 
