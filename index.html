@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>To-do list</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body>
+<section class="wrapper">
+    <form class="user-form " action="">
+        <div>
+            <label for="name-input">Name:</label>
+            <input id="name-input" type="text">
+        </div>
+
+        <div>
+            <label for="lastname-input">Last Name:</label>
+            <input id="lastname-input" type="text">
+        </div>
+
+
+        <div>
+            <label for="tel-input">Phone number:</label>
+            <input id="tel-input" type="text" value="+998" maxlength="13">
+        </div>
+
+
+        <div>
+            <label for="region-selector">Region:</label>
+            <select name="" id="region-selector">
+                <option value=""></option>
+            </select>
+        </div>
+
+        <div>
+            <label for="district-selector">District:</label>
+            <select name="" id="district-selector"></select>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+    <section class="table-wrapper">
+        <table class="users-table">
+            <thead>
+               <tr>
+                        <th>Number</th>
+                        <th>Name</th>
+                        <th>Last Name</th>
+                        <th>Phone Number</th>
+                        <th>Region</th>
+                        <th>District</th>
+                        <th>Options</th>
+               </tr>
+            </thead>
+
+            <tbody></tbody>
+        </table>
+    </section>
+</section>
+</body>
+</html>
